@@ -7,17 +7,32 @@ nltk.download("stopwords")
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-dataset = pd.read_csv("../../Datasets/JobsIT_Dataset.csv")
-dataset = dataset.loc[:, ["Query", "Description"]]
+dataset_IT = pd.read_csv("../../Datasets/JobsIT_Dataset.csv")
+dataset_IT = dataset_IT.loc[:, ["Query", "Description"]]
 
-for i in range(len(dataset)):
-    description = re.sub('[^a-zA-Z]', ' ', dataset["Description"][i])
+all_stopwords = stopwords.words('english')
+
+for i in range(len(dataset_IT)):
+    description = re.sub('[^a-zA-Z]', ' ', dataset_IT["Description"][i])
     description = description.lower()
     description = description.split()
     ps = PorterStemmer()
-    all_stopwords = stopwords.words('english')
     description = [ps.stem(word) for word in description if not word in set(all_stopwords)]
     description = ' '.join(description)
-    dataset["Description"][i] = description
+    dataset_IT["Description"][i] = description
 
-dataset.to_csv("../../Cleaned_Datasets/JobsIT_Dataset.csv", index=False)
+dataset_IT.to_csv("../../Cleaned_Datasets/JobsIT_Dataset.csv", index=False)
+
+dataset_nonIT = pd.read_csv("../../Datasets/JobsNonIT_Dataset.csv")
+dataset_nonIT = dataset_nonIT.loc[:, ["Query", "Description"]]
+
+for i in range(len(dataset_nonIT)):
+    description = re.sub('[^a-zA-Z]', ' ', dataset_nonIT['Description'][i])
+    description = description.lower()
+    description = description.split()
+    ps = PorterStemmer()
+    description = [ps.stem(word) for word in description if not word in set(all_stopwords)]
+    description = ' '.join(description)
+    dataset_nonIT["Description"][i] = description
+    
+dataset_nonIT.to_csv("../../Cleaned_Datasets/JobsNonIT_Dataset.csv",index=False)
