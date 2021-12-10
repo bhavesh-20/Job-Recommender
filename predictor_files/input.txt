@@ -1,82 +1,79 @@
-NAVDEEP KONKIPUDI
-½ Hyderabad, Telangana, India
-[ navdeep152002@gmail.com Ó 9492-02-5845 ¯ linkedin.com/in/NavdeepK  github.com/NavdeepK
+BHAVESH KUMAR CHIGULLAPALLI
+Software Developer
+[ bhavesh189kumar@gmail.com Ó 8639961966 ¯ https://www.linkedin.com/in/bhavesh-kumar-20/  https://github.com/bhavesh-20
 EDUCATION
-Bachelor of Technology, CSE - 9.5 CGPA
-IIIT Sri City
- 2019 – Present ½ Chittor, Andhrapradesh
-Intermediate - 98%
-Trividyaa Jr.College
- 2017-2019 ½ Hyderabad, Telangana
-High School - 9.8 CGPA
-Brilliant Grammar High School
- 2012-2017 ½ Hyderabad, Telangana
+B.Tech. (CSE) - 9.54 CGPA
+Indian Institute of Information Technology Sricity
+ August 2019 – Currently
+Intermediate - 97%
+Deeksha Junior College
+ 2017 - 2019
+Secondary - 10 CGPA
+Maharishi Vidya Mandir, Central Board of Secondary
+Education
+ 2017
 PROJECTS
- CollabTree (Deployed URL)
-A full stack web application that mimics the behaviour of
-freelancing websites. It is a complete web application with
-features like advance search, prole search, messaging,
-blogs, etc.
- Gender-Detection
-Gender Detection Using ANN as well as CNN This model
-detects whether a person is a man or woman by opening
-your webcam.
- Google Keep clone (Deployed URL)
-A google keep clone having features to add and delete
-notes.It is a pure ReactJS based project.
- Docket (Deployed URL)
-A web application built using NodeJS, Express, MongoDB
-to store the list, dynamically create todo routes and perform
-various other functionalities.
-Deployed using Heroku and MongoDB Atlas.
- Gesture Volume Control and paint
-Used OpenCV to virtually control volume of the system
-with hand gestures and also painting using your ngers.
- Genetic Sudoku
-Using AI genetic Algorithm solved sudoku by applying appropriate
-tness functions and mutations.
+RocketShare - File sharing application
+• File sharing application with clean UI and mailing feature.
+• Used XHR for real time upload progress to the server.
+• Authentication using JWT and OAuth and a user dashboard.
+Competitive Programming Contest reminder
+• A online web service used to notify contest updates on
+discord.
+• Built using ask, used apscheduler to schedule cron job.
+Rock Paper Scissor Agent
+• Developed a rock paper scissor game playing agent based
+on Machine learning Classication and GUI created by
+Python tkinter module.
+• Used Support Vector Machine classication to create the
+model.
+Gender Detection
+• Build an articial Neural network and convolutional neural
+network to identify whether a user is a man or a woman,
+using a webcam.
+Sudoku Solver
+• Solved Sudoku using Genetic Algorithm from scratch in
+Python.
+SOFT SKILLS
+• Ability to work under pressure.
+• Time management, teamwork and adaptability.
 ACHIEVEMENTS
- Achieved a 5 star rating (2000) in CodeChef.
- Achieved specialist position (1460) in Codeforces.
- Became member at Gradient(Coding club IIIT Sricity).
- Achieved a global rank of 187 in Codechef November Long
-challenge 2020.
+• Ranked 64 globally in september long challenge codechef.
+• Enthusiastic Coder, 4 star coder (rating = 1930) in
+Codechef and specialist in Codeforces (rating = 1405).
 ABOUT
- A third year under-graduate pursuing BTech in Computer
-Science.
- AI/ML enthusiast, MERN Stack Developer, and Highly interested
-in Competitive coding.
-WORK EXPERIENCE
-Machine Learning Intern
-DC Ikigai Private limited
+• A Third year Undergraduate from IIIT Sricity, well trained in
+coding and various backend web frameworks.
+• A machine learning and articial intelligence enthusiast and a
+competitive coder.
+EXPERIENCE
+Backend Development Intern
+Radicali (Experience Letter)
  June 2021 – August 2021
- Contributed to the team by providing ML models of classi
-cation and regression based on the dataset provided by
-nance team.
- Developed an NLP feedback analysis code to analyse the
-feedback and provide the customers with better result by
-updating the model based on negative reviews.
- Developed an Algo trading as well as RNN model to predict
-the trend of NSE Stock market.
-Gradient - Problem Setter
-IIIT Sricity
- April 2021 – Present ½ Sricity, India
- Organising club events and conducting club sessions.
- Problem setter for gradient, create weekly contests for practicing
+• Worked with python on backend development and built features
+for the app in ask and fastapi frameworks.
+• Working with the team to solve customer’s requests in realtime..
+• Build the backend for new features for the app.
+• Tech scoping and Tech documentation along with the team
+on new features.
+• Fixing bugs faced by customers and the development team.
+Gradient - Club Head
+IIIT Sri City
+ Apr 2021 – Present ½ Sri City, India
+• Managing Gradient club as a core member.
+• Organising club events and conducting club sessions.
+• Problem setter for gradient, create weekly contests for practicing
 competitive programming.
 TECHNICAL SKILLS
 Programming
-C, C++, Python, Java, R, Bash
+C, C++, Java, Python, R
 Software
-Git, Github, NetLogo, Linux, Latex
+Git, Github, Bash, Latex, Netlogo
 Databases
-MySQL, MongoDB(Mongoose)
+MySQL, PostgreSQL, MongoDB
 Frontend Frameworks
-ReactJS, HTML, CSS, JavaScript, JQuery
+HTML, CSS, JavaScript, ReactJS
 Backend Frameworks
-NodeJS(express), Django
+Django, Flask, Fastapi, Nodejs(express)
 Others
-Algorithms, Data Structures, MERN, ML/AI,
-SOFT SKILLS
-Time Management, Ability toWork under Pressure, Decision
-Making, Adaptability, Teamwork, Creativity
+Algorithms, Data Structures, ML/AI
