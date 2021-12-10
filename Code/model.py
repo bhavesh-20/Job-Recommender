@@ -1,12 +1,13 @@
 import re
-import sys, getopt
+import sys
+import getopt
 import pandas as pd
 import numpy as np
 from nltk.corpus import stopwords
+from utils.cosine_similarity import cosine_similarity as cs
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem.porter import PorterStemmer
-from cosine_similarity import cosine_similarity as cs
 
 argumentList = sys.argv[1:]
 options = "o:f:"

@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 nltk.download("stopwords")
 from nltk.corpus import stopwords
-from PorterStemmer import PorterStemmer
+from utils.PorterStemmer import PorterStemmer
 
 print("Starting preprocessing phase ...")
 
