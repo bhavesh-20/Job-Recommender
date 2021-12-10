@@ -53,3 +53,13 @@ The result saved to `Cleaned_Dataset/` directory.
 - Also, you may not be from IT industry only, you may be a doctor, architect, etc, the model takes into consideration by default that you are from IT industry but you can specify that you are from NON-IT field by using the `-o NON-IT` or `--option NON-IT` flags.
 - Example command - to get top 3 recommendations for a NON-IT resume whose contents are pasted in `predictor_files/example2.txt` we use the command `python model.py -o NON-IT -f example2.txt`
 - Remember that for theses commands to work your current directory must be `Job-Recommender/Code/`, if its not the same, then cd to it and then use.
+
+## Series of commands
+- `cd Code/`
+- `python data_cleaning.py`
+- Copy resume contents to `predictor_files/input.txt`
+- Run `python model.py`
+
+## Example Output:
+![image](https://user-images.githubusercontent.com/56588114/145573528-5ad0c6cb-b98f-4be0-a14f-b510fda463fd.png)
+
